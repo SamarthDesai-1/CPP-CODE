@@ -11,6 +11,8 @@ int main() {
     int ans = 0;
     int power = 1;
 
+
+
     while (ascii > 0) {
         int paritydigit = ascii % 2;
         ans += (paritydigit * power);
@@ -20,4 +22,7 @@ int main() {
 
     cout << "Binary number is : " << ans << endl;
     return 0;
+
+
+
 }
