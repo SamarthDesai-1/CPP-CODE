@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+    jshknskd didix d hsvhd
     vector <int> v;
     int in;
     for (int i = 0; i < 5; i++) {
