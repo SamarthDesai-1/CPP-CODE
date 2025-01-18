@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+
     int n;
     vector <int> v;
     cout << "Enter Size : ";
@@ -45,7 +46,5 @@ int main() {
     }
     cout << "Sum : " << indexsum << endl;
     cout << "Center : " << center << endl;
-    
-    
     return 0;
 }
