@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+
     char str[20];
     char *ptr = str;
     int length;
@@ -20,4 +21,5 @@ int main() {
     }
     cout << str << endl;
     return 0;
+
 }
