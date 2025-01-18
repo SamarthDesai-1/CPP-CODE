@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
+
+
     int bin ,ans = 0 ,power = 1;
     cout << "Enter binary number : ";
     cin >> bin;
@@ -18,4 +20,6 @@ int main() {
     
     cout << "Decimal number is : "<< ans << endl;
     return 0;
+
+
 }
