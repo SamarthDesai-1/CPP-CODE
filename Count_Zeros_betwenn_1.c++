@@ -10,9 +10,9 @@ int main() {
 
     while (bin > 0) {
         int lastdigit = bin % 2;
-        if (lastdigit == 0) {
+        if (lastdigit == 0) 
             count++;
-        }
+        
         bin /= 10;
     }
 
