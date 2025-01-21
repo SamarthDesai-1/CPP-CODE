@@ -3,11 +3,10 @@
 using namespace std;
 
 int main() {
+
     int bin ,count = 0;
     cout << "Enter binary number : ";
-    cin >> bin;
-
-    cout << endl;
+    cin >> bin;
 
     while (bin > 0) {
         int lastdigit = bin % 2;
@@ -18,5 +17,6 @@ int main() {
     }
 
     cout << "Number of zeros : " << count << endl;
+
     return 0;
 }
